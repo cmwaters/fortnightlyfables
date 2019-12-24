@@ -1,0 +1,40 @@
+.main {
+    margin-top:100px;
+    margin-left:auto;
+    margin-right: auto;
+    width:1300px;
+}
+.content {
+    width:900px;
+    margin-left:auto;
+    margin-right: auto;
+    padding:150px;
+    background-color: white;
+    height:1200px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.header {
+    padding-top:120px;
+    text-align: center;
+
+}
+.header .subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.header .title {
+    color: black;
+    font-family: 'Jomolhari', serif;
+    font-size: 60px;
+}
+.paragraph {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+hr {
+    width:300px; margin-bottom: 80px;
+}
