@@ -110,3 +110,11 @@ a {
   height: 400px;
   background-color: white;
 }
+
+.container .title {
+  color: black;
+  font-family: 'Jomolhari', serif;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+}

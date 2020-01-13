@@ -21,20 +21,22 @@
 }
 .header .subtitle {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
 .header .title {
     color: black;
     font-family: 'Jomolhari', serif;
-    font-size: 60px;
+    font-size: 70px;
+    margin:auto;
 }
 .paragraph {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 28px;
+    text-indent: 16px;
 }
 hr {
-    width:300px; margin-bottom: 80px;
+    width:300px; margin-bottom: 100px; margin-top:60px;
 }
