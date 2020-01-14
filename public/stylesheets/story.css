@@ -10,7 +10,6 @@
     margin-right: auto;
     padding:150px;
     background-color: white;
-    height:1200px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
@@ -39,4 +38,10 @@
 }
 hr {
     width:300px; margin-bottom: 100px; margin-top:60px;
+}
+
+.chapter {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    margin:14px;
 }
