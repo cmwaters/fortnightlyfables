@@ -10,8 +10,8 @@ a {
   position: fixed;
   height:80px;
   width:100%;
-  top:0px;
-  left:0px;
+  top:0;
+  left:0;
   background-color: white;
   box-shadow: 0 1px 8px rgba(0,0,0,0.08)
 }
@@ -105,6 +105,7 @@ a {
 
 .container {
   display: inline-block;
+  vertical-align: top;
   width:360px;
   margin:20px;
   height: 400px;
@@ -117,4 +118,13 @@ a {
   font-size: 40px;
   display: block;
   text-align: center;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:#ccc;
+  width:100%;
+  height:100vh;
 }

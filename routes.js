@@ -3,11 +3,19 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home');
+  res.render('library');
 });
 
-router.get('/story/a_drop_of_sense_in_a_river_of_madness', function(req, res) {
-  res.render('a_drop_of_sense_in_a_river_of_madness/first_publish')
+router.get('/story', function(req, res, next) {
+  res.render('library');
+});
+
+router.get('/story/1', function(req, res) {
+  res.render('story/issue1')
+});
+
+router.get('/story/2', function(req, res) {
+  res.render('story/issue2')
 });
 
 module.exports = router;
