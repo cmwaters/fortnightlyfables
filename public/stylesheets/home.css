@@ -6,6 +6,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 .navbar {
   position: fixed;
   height:80px;
@@ -106,18 +107,31 @@ a {
 .container {
   display: inline-block;
   vertical-align: top;
-  width:360px;
+  width:260px;
   margin:20px;
-  height: 400px;
+  height: 300px;
+  text-align: center;
   background-color: white;
 }
 
-.container .title {
+.container .issue {
   color: black;
-  font-family: 'Jomolhari', serif;
-  font-size: 40px;
+  font-family: "Times New Roman", serif;;
+  padding-top: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 30px;
   display: block;
-  text-align: center;
+  letter-spacing: 1px;
+}
+
+.container .subtitle {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  font-style: italic;
+  margin-top: 40px;
+  letter-spacing: 1px;
 }
 
 .cover {
@@ -127,4 +141,8 @@ a {
   background-color:#ccc;
   width:100%;
   height:100vh;
+}
+
+.library_img {
+  width:120px;
 }

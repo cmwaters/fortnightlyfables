@@ -14,14 +14,13 @@
     border-top-left-radius: 8px;
 }
 .header {
-    padding-top:120px;
     text-align: center;
-
 }
 .header .subtitle {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
 }
 .header .title {
     color: black;
@@ -29,6 +28,11 @@
     font-size: 70px;
     margin:auto;
 }
+.header .cover_img {
+    width: 150px;
+}
+
+
 .paragraph {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
@@ -43,5 +47,5 @@ hr {
 .chapter {
     text-align: center;
     font-family: "Times New Roman", serif;
-    margin:14px;
+    margin:28px;
 }
