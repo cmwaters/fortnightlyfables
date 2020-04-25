@@ -9,6 +9,10 @@ router.get('/story', function(req, res) {
   res.render('library');
 });
 
+router.get('/game', function(req, res) {
+  res.render('game')
+});
+
 router.get('/story/1', function(req, res) {
   res.render('story/issue1')
 });
